@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
 import NotFound from './NotFound';
 import Cleanings from '../cleanings/Cleanings';
+import AddCleaning from '../cleanings/AddCleaning';
 import Stats from '../stats/Stats';
 
 const Routes = () => {
@@ -10,6 +11,7 @@ const Routes = () => {
     <Switch>
       <Route exact path="/" render={() => <Redirect to="/stats" />} />
       <Route exact path="/cleanings" component={Cleanings} />
+      <Route exact path="/add-cleaning" component={AddCleaning} />
       <Route exact path="/stats" component={Stats} />
       <Route component={NotFound} />
     </Switch>
