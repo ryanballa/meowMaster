@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+      "naumovs.color-highlight",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "sonarsource.sonarlint-vscode"
+    ]
+  }
+  
